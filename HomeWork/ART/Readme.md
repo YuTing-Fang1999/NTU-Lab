@@ -21,7 +21,6 @@ cv::normalize(newArray, newArray, 0, 1, NORM_MINMAX, CV_32FC1);
 * 使用vs2022與vcpkg
 
 ### 原理
-將問題簡化=>將1D轉為2D=>使用ART  
 <img src="https://user-images.githubusercontent.com/66452317/153179688-becb5349-5055-498a-9736-3300b9c04bca.png" width=600/>
 
 ![image](https://github.com/YuTing-Fang1999/NTU-Lab/blob/main/HomeWork/ART/resource/rotate.gif)
