@@ -93,7 +93,7 @@ int main() {
 	//注意這裡要使用CV_32FC1才能用at<float>
 	cv::normalize(colAddImg, colAddImg, 0, 1, NORM_MINMAX, CV_32FC1);
 	
-
+	//ART
 	Mat results(oriRows, colAddImg.cols, CV_32FC1, Scalar(0));
 
 	double anglePerPhoto = 11.25;
