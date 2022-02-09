@@ -2,6 +2,7 @@
 為了檢察PCB瑕疵，我們需要用X-ray重建三維的錫球以檢察內部構造  
 
 ### ART技術
+ART(Algebraic Reconstruction Technique)   
 此例子是模擬重建過程  
 將1D重建為2D  
 
@@ -21,7 +22,7 @@ cv::normalize(newArray, newArray, 0, 1, NORM_MINMAX, CV_32FC1);
 * 使用vs2022與vcpkg
 
 ### 原理
-<img src="https://user-images.githubusercontent.com/66452317/153179688-becb5349-5055-498a-9736-3300b9c04bca.png" width=600/>
+<img src="https://user-images.githubusercontent.com/66452317/153183655-d979f70e-81be-4176-9314-2c5f1b77c638.png" width=600/>
 
 ![image](https://github.com/YuTing-Fang1999/NTU-Lab/blob/main/HomeWork/ART/resource/rotate.gif)
 ![image](https://github.com/YuTing-Fang1999/NTU-Lab/blob/main/HomeWork/ART/resource/addCol.gif)
