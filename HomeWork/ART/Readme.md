@@ -25,7 +25,8 @@ cv::normalize(newArray, newArray, 0, 1, NORM_MINMAX, CV_32FC1);
 <img src="https://user-images.githubusercontent.com/66452317/153203523-7612f902-4ffa-425c-bf6f-de702aa79237.png" width=600/>
 
 ![image](https://github.com/YuTing-Fang1999/NTU-Lab/blob/main/HomeWork/ART/resource/rotate.gif)
-![image](https://github.com/YuTing-Fang1999/NTU-Lab/blob/main/HomeWork/ART/resource/addCol.gif)
+![image](https://github.com/YuTing-Fang1999/NTU-Lab/blob/main/HomeWork/ART/resource/addCol.gif)  
+![image](https://github.com/YuTing-Fang1999/NTU-Lab/blob/main/HomeWork/ART/resource/result.png)
 
 在旋轉時，超出的範圍會被切掉  
 ![image](https://github.com/YuTing-Fang1999/NTU-Lab/blob/main/HomeWork/ART/resource/oriImg2.png)
